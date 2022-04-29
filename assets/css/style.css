@@ -157,7 +157,7 @@ h6 {
 }
 
 #main {
-  background: url('/assets/img/Pattern/01.jpg') top center;
+  background: url('../img/Pattern/01.jpg') top center;
   /* background-size: cover; */
   overflow: hidden;
   position: relative;
@@ -187,7 +187,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background-image: url(/assets/img/home/02.png);
+  background-image: url(../img/home/02.png);
   background-repeat: no-repeat;
   background-size: 25%;
   background-position: 110% 100%;
@@ -303,7 +303,7 @@ h6 {
 #about {
   width: 100%;
   height: 100vh !important;
-  background-image: url(/assets/img/about/02.png);
+  background-image: url(../img/about/02.png);
   background-repeat: no-repeat;
   background-size: 35%;
   background-position: -22% 85%;
@@ -320,7 +320,7 @@ h6 {
 
 #about .header-about {
   height: 100%;
-  background-image: url(/assets/img/about/01.jpg);
+  background-image: url(../img/about/01.jpg);
   background-size: 60%;
   background-repeat: no-repeat;
   background-position-y: 100%;
@@ -665,7 +665,7 @@ div.positionBtn {
 #main-footer {
   width: 100%;
   height: 100vh;
-  background: url(/assets/img/footer/01.png);
+  background: url(../img/footer/01.png);
   background-size: 100%;
   background-repeat: no-repeat;
   overflow: hidden;
