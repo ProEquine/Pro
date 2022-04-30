@@ -8,6 +8,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* .container{
+  padding-left: 10%;
+  padding-right: 10%;
+} */
 a {
   color: #d4a14c;
   text-decoration: none;
@@ -329,10 +333,12 @@ h6 {
   position: sticky;
   color: #000;
 }
-#about .header-about .about-text{
+
+#about .header-about .about-text {
   top: 10rem;
   position: relative;
 }
+
 #about h2 {
   font-size: 4rem;
   font-weight: bold;
@@ -352,7 +358,7 @@ h6 {
 }
 
 #about .header-about .about-text p {
-  width: 50%;
+  width: 60%;
   font-size: 14px;
   margin-bottom: 20px;
   color: #000000;
@@ -419,7 +425,6 @@ h6 {
   color: #000000;
   font-size: 16px;
   word-break: break-all;
-
 }
 
 @media (max-width: 991px) {
@@ -427,30 +432,52 @@ h6 {
     display: grid !important;
     justify-items: center;
   }
+
   #our-services .content-text {
     position: relative;
     top: 0%;
   }
 }
 
-
-.hexagon {
+.hexagon-one {
   display: inline-block;
-  width: 70%;
-  height: 98%;
-  background: #ffffff;
-  -webkit-clip-path: polygon(45% 1.33975%, 46.5798% 0.60307%, 48.26352% 0.15192%, 50% 0%,
-   51.73648% 0.15192%, 53.4202% 0.60307%, 55% 1.33975%, 89.64102% 21.33975%, 91.06889% 22.33956%,
-    92.30146% 23.57212%, 93.30127% 25%, 94.03794% 26.5798%, 94.48909% 28.26352%, 94.64102% 30%, 
-    94.64102% 70%, 94.48909% 71.73648%, 94.03794% 73.4202%, 93.30127% 75%, 92.30146% 76.42788%,
-     91.06889% 77.66044%, 89.64102% 78.66025%, 55% 98.66025%, 53.4202% 99.39693%, 51.73648% 99.84808%,
-      50% 100%, 48.26352% 99.84808%, 46.5798% 99.39693%, 45% 98.66025%, 10.35898% 78.66025%, 8.93111% 77.66044%,
-       7.69854% 76.42788%, 6.69873% 75%, 5.96206% 73.4202%, 5.51091% 71.73648%, 5.35898% 70%, 5.35898% 30%,
-        5.51091% 28.26352%, 5.96206% 26.5798%, 6.69873% 25%, 7.69854% 23.57212%, 8.93111% 22.33956%, 10.35898% 21.33975%);
-  clip-path: polygon(45% 1.33975%, 46.5798% 0.60307%, 48.26352% 0.15192%, 50% 0%, 51.73648% 0.15192%, 53.4202% 0.60307%, 55% 1.33975%, 89.64102% 21.33975%, 91.06889% 22.33956%, 92.30146% 23.57212%, 93.30127% 25%, 94.03794% 26.5798%, 94.48909% 28.26352%, 94.64102% 30%, 94.64102% 70%, 94.48909% 71.73648%, 94.03794% 73.4202%, 93.30127% 75%, 92.30146% 76.42788%, 91.06889% 77.66044%, 89.64102% 78.66025%, 55% 98.66025%, 53.4202% 99.39693%, 51.73648% 99.84808%, 50% 100%, 48.26352% 99.84808%, 46.5798% 99.39693%, 45% 98.66025%, 10.35898% 78.66025%, 8.93111% 77.66044%, 7.69854% 76.42788%, 6.69873% 75%, 5.96206% 73.4202%, 5.51091% 71.73648%, 5.35898% 70%, 5.35898% 30%, 5.51091% 28.26352%, 5.96206% 26.5798%, 6.69873% 25%, 7.69854% 23.57212%, 8.93111% 22.33956%, 10.35898% 21.33975%);
+  width: 40em;
+  height: 40em;
+  background-image: url(../img/services/02.jpg);
+  background-repeat: no-repeat;
+  background-position-x: -14rem;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  clip-path: polygon(45% 1.33975%, 46.5798% 0.60307%, 48.26352% 0.15192%, 50% 0%,
+      51.73648% 0.15192%, 53.4202% 0.60307%, 55% 1.33975%, 89.64102% 21.33975%,
+      91.06889% 22.33956%, 92.30146% 23.57212%, 93.30127% 25%, 94.03794% 26.5798%,
+      94.48909% 28.26352%, 94.64102% 30%, 94.64102% 70%, 94.48909% 71.73648%, 94.03794% 73.4202%,
+      93.30127% 75%, 92.30146% 76.42788%, 91.06889% 77.66044%, 89.64102% 78.66025%, 55% 98.66025%,
+      53.4202% 99.39693%, 51.73648% 99.84808%, 50% 100%, 48.26352% 99.84808%, 46.5798% 99.39693%,
+      45% 98.66025%, 10.35898% 78.66025%, 8.93111% 77.66044%, 7.69854% 76.42788%, 6.69873% 75%,
+      5.96206% 73.4202%, 5.51091% 71.73648%, 5.35898% 70%, 5.35898% 30%, 5.51091% 28.26352%,
+      5.96206% 26.5798%, 6.69873% 25%, 7.69854% 23.57212%, 8.93111% 22.33956%, 10.35898% 21.33975%);
 }
 
-
+.hexagon-two {
+  display: inline-block;
+  width: 40em;
+  height: 40em;
+  background-image: url(../img/services/03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 70%;
+  clip-path: polygon(45% 1.33975%, 46.5798% 0.60307%, 48.26352% 0.15192%, 50% 0%,
+      51.73648% 0.15192%, 53.4202% 0.60307%, 55% 1.33975%, 89.64102% 21.33975%,
+      91.06889% 22.33956%, 92.30146% 23.57212%, 93.30127% 25%, 94.03794% 26.5798%,
+      94.48909% 28.26352%, 94.64102% 30%, 94.64102% 70%, 94.48909% 71.73648%, 94.03794% 73.4202%,
+      93.30127% 75%, 92.30146% 76.42788%, 91.06889% 77.66044%, 89.64102% 78.66025%, 55% 98.66025%,
+      53.4202% 99.39693%, 51.73648% 99.84808%, 50% 100%, 48.26352% 99.84808%, 46.5798% 99.39693%,
+      45% 98.66025%, 10.35898% 78.66025%, 8.93111% 77.66044%, 7.69854% 76.42788%, 6.69873% 75%,
+      5.96206% 73.4202%, 5.51091% 71.73648%, 5.35898% 70%, 5.35898% 30%, 5.51091% 28.26352%,
+      5.96206% 26.5798%, 6.69873% 25%, 7.69854% 23.57212%, 8.93111% 22.33956%, 10.35898% 21.33975%);
+}
 /*--------------------------------------------------------------
 #   section-vedio 
 --------------------------------------------------------------*/
@@ -670,6 +697,8 @@ div.positionBtn {
   background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
+  background-position-y: 40%;
+  top: 10rem;
 }
 
 #main-footer:before {
@@ -677,16 +706,23 @@ div.positionBtn {
   background: rgba(6, 12, 34, 0.8);
   position: relative;
   bottom: 0;
-  top: 0;
+  top: 10;
   left: 0;
   right: 0;
+}
+@media (max-width: 991px) {
+  #main-footer{
+    height: auto;
+    background-size: cover;
+  }
+  
 }
 
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
 #contact {
-  padding: 60px 0 20px 0;
+  padding: 10rem 0 20px 0;
 }
 
 #contact h2 {
@@ -735,7 +771,7 @@ div.positionBtn {
   margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
   #contact .contact-address,
   #contact .contact-phone,
@@ -749,7 +785,7 @@ div.positionBtn {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
-}
+} */
 
 #contact .form-control {
   background-color: #000000a1 !important;
@@ -834,11 +870,16 @@ div.positionBtn {
   color: #fff;
   white-space: pre-line;
 }
-  
+
+#footer .footer-top .footer-info img {
+  width: 100%;
+}
+
 #footer .footer-top .social-links a {
   display: inline-block;
-  background: #222636;
-  color: #eee;
+  background: #c48636;
+  /* linear-gradient(to left, #c48636, #efce72, #c48636); */
+  color: #000;
   line-height: 1;
   margin-right: 4px;
   border-radius: 50%;
@@ -871,7 +912,8 @@ div.positionBtn {
 }
 
 #footer .footer-top .footer-links {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  padding-left: 10rem;
 }
 
 #footer .footer-top .footer-links ul {
@@ -904,7 +946,8 @@ div.positionBtn {
 }
 
 #footer .footer-top .footer-contact {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  padding-left: 8rem;
 }
 
 #footer .footer-top .footer-contact p {
@@ -912,7 +955,7 @@ div.positionBtn {
 }
 
 #footer .footer-top .footer-newsletter {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 #footer .footer-top .footer-newsletter input[type=email] {
@@ -946,4 +989,14 @@ div.positionBtn {
   font-size: 13px;
   color: #ddd;
 }
+@media (max-width: 991px) {
+#footer .footer-top .footer-links {
+  padding-left: 0;
+  text-align: center;
+}
+#footer .footer-top .footer-contact {
+  padding-left: 0;
+  text-align: center;
 
+}
+}
