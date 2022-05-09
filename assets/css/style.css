@@ -2,10 +2,15 @@
 # General
 --------------------------------------------------------------*/
 
+@font-face {
+  font-family: SANSATION-BOLD;
+  src: url(../Font/SANSATION-BOLD.TTF);
+}
+
 body {
   background: rgb(255 255 255 / 97%) !important;
   color: #2f3138;
-  font-family: "Open Sans", sans-serif;
+  font-family: "SANSATION-BOLD" , sans-serif;
 }
 
 a {
@@ -33,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "SANSATION-BOLD" , sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -143,6 +148,8 @@ h6 {
   background: url('../img/Pattern/01.jpg') top center;
   overflow: hidden;
   position: relative;
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 #main:before {
@@ -170,12 +177,13 @@ h6 {
   width: 100%;
   background-image: url(../img/home/02.png);
   background-repeat: no-repeat;
-  background-size: 25%;
+  background-size: 20%;
   background-position: 110% 100%;
 }
 
 #hero img {
-  width: 75%;
+  width: 100%;
+  height: 100vh;
   margin-top: -1%;
 }
 
@@ -223,7 +231,7 @@ h6 {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position-y: 100%;
-  background-position-x: 80%;
+  background-position-x: 95%;
   overflow: hidden;
   position: sticky;
   color: #000;
@@ -237,6 +245,7 @@ h6 {
 #about h2 {
   font-size: 4rem;
   font-weight: bold;
+  font-family: "SANSATION-BOLD" , sans-serif;
   margin-bottom: 10px;
   background: linear-gradient(to right, #c48636 0%, #efce72, #c48636);
   -webkit-text-fill-color: transparent;
@@ -246,8 +255,9 @@ h6 {
 #about .header-about .about-text p {
   width: 60%;
   font-size: 14px;
+  font-family: "SANSATION-BOLD" , sans-serif;
   margin-bottom: 20px;
-  color: #000000;
+  color: #84837e;
   line-height: 3;
 }
 
@@ -653,7 +663,7 @@ div.positionBtn {
 
 #footer  .social-links a {
   display: inline-block;
-  background: #c48636;
+  background: linear-gradient(to right, #c48636 0%, #efce72, #c48636);
   color: #000;
   line-height: 1;
   margin-right: 4px;
@@ -687,6 +697,7 @@ div.positionBtn {
 
 #footer  .footer-links {
   padding-left: 10rem;
+  padding-top: 2.5rem;
 }
 
 #footer  .footer-links ul {
@@ -697,12 +708,13 @@ div.positionBtn {
 
 #footer  .footer-links ul i {
   padding-right: 5px;
+  padding: 6px 0px;
   color: #d4a14c;
   font-size: 18px;
 }
 
 #footer  .footer-links ul li {
-  padding: 10px 0;
+  padding: 4px 0px !important;
 }
 
 #footer  .footer-links ul li:first-child {
@@ -719,6 +731,7 @@ div.positionBtn {
 
 #footer  .footer-contact {
   padding-left: 8rem;
+  padding-top: 2.5rem;
 }
 
 #footer  .footer-contact p {
